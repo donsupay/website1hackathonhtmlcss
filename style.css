@@ -1,0 +1,512 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h4 {
+  font-size: 1em;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+  font-size: 0.9em;
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: rgba(0, 0, 0, 0.349);
+  padding: 10px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.692);
+  border-radius: 0px;
+  color: rgba(255, 255, 255, 0.692);
+}
+
+button:hover {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.349);
+  transition: all 0.5s;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.color-title {
+  color: #27aac4;
+}
+
+/*HEADER*/
+
+header {
+  background-color: rgb(240, 240, 240);
+}
+
+header .logo {
+  margin: 0;
+  padding: 30px 30px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav {
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 0.8em;
+}
+
+header a {
+  padding: 2px 10px;
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #000;
+}
+
+header a:hover {
+  text-transform: uppercase;
+  color: #27aac4;
+}
+
+/*BANNER*/
+
+#banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: #fff;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(image/camp-night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#banner .banner-content h1 {
+  margin: 16px;
+  color: #fff;
+}
+
+#banner .banner-content h2 {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background: #27aac4;
+  margin: 10px auto;
+}
+
+.line2 {
+  width: 100px;
+  height: 2px;
+  background: #27aac4;
+  margin: 10px auto;
+  margin-bottom: 20px;
+}
+
+#banner button {
+  font-size: 0.8em;
+}
+
+/*BANNER-ABOUT*/
+
+#banner-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: #fff;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(image/nature-3777203_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#banner .banner-content h1 {
+  margin: 16px;
+  color: #fff;
+}
+
+#banner .banner-content h2 {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background: #27aac4;
+  margin: 10px auto;
+}
+
+#banner button {
+  font-size: 0.8em;
+}
+
+/*BANNER-CONTACT*/
+
+#banner-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: #fff;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(image/rough-horn-2146181_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#banner .banner-content h1 {
+  margin: 16px;
+  color: #fff;
+}
+
+#banner .banner-content h2 {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background: #27aac4;
+  margin: 10px auto;
+}
+
+#banner button {
+  font-size: 0.8em;
+}
+
+/*WELCOME*/
+
+#welcome .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 12px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*WELCOME - ABOUT US*/
+
+#aboutus .container {
+  text-align: center;
+  padding: 100px 12px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+#aboutus .text {
+  margin-bottom: 60px;
+}
+
+#aboutus .container .text1 {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+#aboutus .container .text2 {
+  padding-bottom: 60px;
+}
+
+#aboutus .container .text3 {
+  padding-bottom: 60px;
+}
+
+/*EVEREST*/
+
+#everest .container {
+  text-align: left;
+  padding: 100px 12px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+/*OUR TREKS*/
+
+#our-treks {
+  background-color: rgb(250, 250, 250);
+  color: white;
+  text-align: center;
+}
+
+#our-treks .container {
+  padding: 50px 0px;
+}
+
+#our-treks h2 {
+  padding: 10px 0px;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+#our-treks .treks {
+  background-position: center center;
+  background-size: cover;
+  padding: 100px;
+  margin: 20px;
+}
+
+.treks:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(image/himalayabanderaschico.jpg);
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.treks:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(image/torres-del-paine-chico.jpg);
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/*WHY US*/
+
+#whyus .container {
+  text-align: center;
+  padding: 100px 12px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+#whyus .whyus-content {
+  padding: 10px 0px;
+}
+
+#whyus .whyus-content h2 {
+  padding-bottom: 0px;
+}
+
+#whyus .whyus-content p {
+  padding-bottom: 20px;
+}
+
+#whyus .whyus-content .line {
+  margin-bottom: 50px;
+}
+
+/*BOOK*/
+
+#book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(image/lago-di-limides.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  height: 80vh;
+}
+
+#book .container {
+  padding: 0px 30px;
+}
+
+#book h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+#book button {
+  font-size: 0.8em;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: rgb(230, 230, 230);
+}
+
+footer p {
+  margin: 0;
+  color: rgb(100, 100, 100);
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+/*CONTACT*/
+
+#contact .container {
+  width: 400px;
+  margin: auto;
+  padding: 100px 10px;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+input,
+textarea,
+#trip,
+#experience {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*MEDIAQUERIES*/
+
+@media (min-width: 720px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
+
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+
+  #banner h1 {
+    font-size: 3em;
+  }
+
+  #welcome .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #welcome .text {
+    width: 50%;
+    max-width: 600px;
+    text-align: center;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #aboutus .container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 700px;
+  }
+
+  #welcome h2 {
+    margin-top: 0px;
+  }
+
+  #our-treks .upcoming {
+    display: flex;
+    justify-content: center;
+  }
+
+  #our-treks h3 {
+    margin-top: 0;
+  }
+}
